@@ -1,4 +1,4 @@
-import Userdata from "@/out/component/userdata";
+import Userdata from "@/app/component/userdata";
 
 export default function Home() {
   return (
