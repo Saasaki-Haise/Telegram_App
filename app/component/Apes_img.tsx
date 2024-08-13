@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import "../../out/_next/static/css/182924b95f04a622.css";
+// import "../../out/_next/static/css/182924b95f04a622.css";
 
 export const Apes_img = () => {
     return (
