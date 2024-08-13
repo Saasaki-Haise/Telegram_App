@@ -1,10 +1,15 @@
 import Userdata from "@/app/component/userdata";
+import { Apes_img } from "./component/Apes_img";
+import Footer from "./component/Footer";
+import Tasks from "./component/Tasks";
 
 export default function Home() {
   return (
-    <main className="p-4 bg-blue-50">
-      <div>Home</div>
-      <Userdata />
-    </main>
+    <main>
+      <Apes_img />
+      <Tasks />
+      {/* <Userdata /> */}
+      <Footer />
+    </main >
   )
 }
