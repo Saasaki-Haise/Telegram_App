@@ -1,5 +1,5 @@
 import React from "react";
-// import "../../out/_next/static/css/182924b95f04a622.css";
+import "../css/style.css";
 
 export default function Tasks() {
     return (
