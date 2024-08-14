@@ -50,10 +50,10 @@ export default function Tasks() {
                 <li className="tasks_li">
                     <div className="task_container">
                         <div className="li_img">
-
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="friend" className="friend_logo"><path d="M26.22,18.79a5,5,0,1,0-6.44,0,7,7,0,0,0-.65.38,9,9,0,0,0-4.32-4.31,7,7,0,1,0-7.63,0A9,9,0,0,0,2,23v6a1,1,0,0,0,1,1H29a1,1,0,0,0,1-1V25A7,7,0,0,0,26.22,18.79ZM20,15a3,3,0,1,1,3,3A3,3,0,0,1,20,15ZM6,9a5,5,0,1,1,5,5A5,5,0,0,1,6,9ZM17,28H4V23a7,7,0,0,1,14,0v5Zm11,0H20V23a9,9,0,0,0-.18-1.82A4.89,4.89,0,0,1,23,20a5,5,0,0,1,5,5Z" fill="#ffffff" className="color000000 svgShape"></path></svg>
                         </div>
                         <div className="p_div">
-                            <p>Subscribe Youtube channel</p>
+                            <p>Invite 1 friend</p>
                             <p className="rewards">Rewards : +500 APES</p>
                         </div>
                     </div>
@@ -61,10 +61,13 @@ export default function Tasks() {
                 </li>
                 <li className="tasks_li">
                     <div className="task_container">
-                        <div className="li_img"></div>
+                        <div className="li_img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="friend" className="friend_logo"><path d="M26.22,18.79a5,5,0,1,0-6.44,0,7,7,0,0,0-.65.38,9,9,0,0,0-4.32-4.31,7,7,0,1,0-7.63,0A9,9,0,0,0,2,23v6a1,1,0,0,0,1,1H29a1,1,0,0,0,1-1V25A7,7,0,0,0,26.22,18.79ZM20,15a3,3,0,1,1,3,3A3,3,0,0,1,20,15ZM6,9a5,5,0,1,1,5,5A5,5,0,0,1,6,9ZM17,28H4V23a7,7,0,0,1,14,0v5Zm11,0H20V23a9,9,0,0,0-.18-1.82A4.89,4.89,0,0,1,23,20a5,5,0,0,1,5,5Z" fill="#ffffff" className="color000000 svgShape"></path></svg>
+
+                        </div>
                         <div className="p_div">
-                            <p>Watch video on Youtube</p>
-                            <p className="rewards">Rewards : +400 APES</p>
+                            <p>Invite 5 friends</p>
+                            <p className="rewards">Rewards : +10000 APES</p>
                         </div>
                     </div>
                     <button type="button" className="li_btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-xs px-2 py-1.5 text-center me-2 mb-2">GO</button>

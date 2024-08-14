@@ -1,11 +1,10 @@
 /* CSS PERSONALISER */
 main {
+    margin: 0;
     height: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 html {
@@ -50,21 +49,24 @@ body {
 
 .footer {
     color: white;
+    position: fixed;
+    bottom: 0%;
+    z-index: 1;
 }
 
 .flex {
+    background-color: #41464a;
     display: flex;
     justify-content: space-around;
-    border: solid 1px red;
-    width: 350px;
-    height: 40px;
-    padding: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
 }
 
 .tasks {
     color: white;
-    height: 100%;
     width: 90%;
+    margin-bottom: 30px;
 }
 
 .tasks_title {
@@ -117,4 +119,30 @@ body {
 
 .rewards {
     color: gray;
+}
+
+.friend_logo {
+    height: 25px;
+    padding: 5px;
+}
+
+.li_menu_friend {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+.li_menu_friend svg {
+    height: 25px;
+}
+
+.share {
+    border: 1px solid white;
+    color: white;
+    min-height: 150px;
+    width: 300px;
 }
